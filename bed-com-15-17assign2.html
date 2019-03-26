@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> WELCOME TO ALINAFE WEB</title>
+     
+    </head>
+    <body>
+        
+        <div style="background-color:brown" class="header_section">
+                <h2 align = "center">ALINAFE KAMWENDO COMPUTER SCIENTIST</h2>
+            <img style="height:250px;border-radius: 50%" src="assignment.jpg"  class = "display_image">
+            <a  href="https://www.facebook.com" >FACEBOOK</a>
+            <a href="mailto:bed-com-15-17">EMAIL</a>
+            
+        </div>
+
+        
+        <div style="background-color:darkblue" class="projectSpace" >
+            <form  style="background-color:rgb(99, 81, 81)" id="pForm" name ="pform">
+                <fieldset style="background-color:darkolivegreen; float:right">
+                    <legend>PROJECT REGISTATION</legend>
+                    <br>
+                    <strong>PROJECT:</strong>
+                    <input style="border-color:black" required type="text" name="projectN" placeholder="please enter name of your project here"  >
+                    <br/>
+                    <strong>PROJECT DESCRIPTION</strong>
+                    <br>
+                    <textarea style="border-color:black" cols = "30" rows="10" name="projectD" placeholder="please enter description of your project" required></textarea>
+                    <br>
+                    <strong>COMPLETION DATE: </strong>
+                    <input type="date" name="completionD" >
+                    <br><br>
+                    <input style="background-color:red" type="submit" value="SUBMIT" id="button">
+                </fieldset><br></br>
+            </form>
+        </div>
+
+        <div  style="background-color:darkolivegreen" class="display_projects"> 
+            <h2 >HERE ARE YOUR PROJECTS:</h2>
+            <ul id="projectList">
+               
+            </ul>
+        </div>
+
+        <div style="background-color:darkolivegreen" class="work_experience">
+                <form id="experienceF" name ="experienceform">
+                        <fieldset> 
+                            <legend>YOUR EXPERIECE</legend>
+                            <br>
+                            <strong>TYPE OF WORK :  </strong>
+                            <input type="text" name="work_type" placeholder="please enter your work experience"  required>
+                            <br/>
+                            <strong>YOUR EXPERIENCE</strong>
+                            <br>
+                            <textarea cols = "30" rows="10" name="work_details" placeholder="type work experience" required></textarea>
+                            <br>
+                            
+                            <input  style="background-color:red" type="submit" value="SUBMIT" id="button">
+                        </fieldset>
+                </form>
+        </div>
+        <div style="background-color:darkolivegreen">
+                <h2 >EXPERIENCE</h2>
+                <ul id ="experienceId">
+
+                </ul>
+        </div>
+    </body>
+    <script src="jscript.js" lang="javascript" type="text/javascript"></script>
+</html>
